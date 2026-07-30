@@ -1,7 +1,23 @@
 aid: kiki
 name: Kiki
-description: Kiki is a company surfaced as a portfolio company of 500-global, a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kiki (Kikihub) is a location-based social networking and chat mobile app that connects people
+  nearby for local friendships, dating, networking, and community conversations. Users join local chat
+  rooms to discover people around them and start real conversations, meeting new friends and matches in
+  their area. The app is available for iOS and Android. Kiki publishes no public API, developer portal,
+  or documentation; this profile tracks the company within the API Evangelist network as a venture-backed
+  (500 Global, a16z) consumer social lead awaiting any future developer surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kikihub.com/img/logo-big.png
 url: https://raw.githubusercontent.com/api-evangelist/kiki/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social
+- Chat
+- Dating
+- Location
+- Community
+- Networking
+- Mobile
+- Messaging
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kiki-domain-security.yml
 - type: Website
-  url: https://kiki.social
+  url: https://kikihub.com
+- type: TermsOfService
+  url: https://kikihub.com/terms
+- type: PrivacyPolicy
+  url: https://kikihub.com/policy
+- type: Support
+  url: https://kikihub.com/support
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
