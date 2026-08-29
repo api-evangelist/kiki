@@ -6,6 +6,17 @@ description: Kiki (Kikihub) is a location-based social networking and chat mobil
   their area. The app is available for iOS and Android. Kiki publishes no public API, developer portal,
   or documentation; this profile tracks the company within the API Evangelist network as a venture-backed
   (500 Global, a16z) consumer social lead awaiting any future developer surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
